@@ -2,7 +2,7 @@ package br.om.jogo;
 
 import java.util.Random;
 import java.util.Scanner;
-
+ // Atualiza√ß√£o pelo GitHub
 public class ParOuImparEscolha {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -13,22 +13,22 @@ public class ParOuImparEscolha {
 			int i =1;
 		System.out.println("Esolha:");
 		System.out.println("[1] Par");
-		System.out.println("[2] Õmpar");
+		System.out.println("[2] √çmpar");
 		int jog = teclado.nextInt();
 		switch (jog) {
 		case 1:
 			escjog = "Par";
-			esccomp = "Õmpar";
+			esccomp = "√çmpar";
 			break;
 		case 2:
 			escjog = "Par";
-			esccomp = "Õmpar";
+			esccomp = "√çmpar";
 			break;
 		default:
-			System.out.println("OpÁ„o inv·lida");
+			System.out.println("Op√ß√£o inv√°lida");
 			break;
 		}
-		System.out.print("Digite um n˙mero: ");
+		System.out.print("Digite um n√∫mero: ");
 		int escjo = teclado.nextInt();
 		int esccom = num.nextInt(10);
 		int total = escjo + esccom ;
@@ -41,20 +41,20 @@ public class ParOuImparEscolha {
 		System.out.println(escjo + " + " + esccom + " = " + total);
 		System.out.println("=============================");
 		if(total%2==0) {
-			if(escjog=="Par" && esccomp=="Õmpar") {
+			if(escjog=="Par" && esccomp=="√çmpar") {
 				System.out.println("Jogador ganhou a rodada!");
 				jogador++;
-			}else if(escjog=="Õmpar" && esccomp=="Par") {
+			}else if(escjog=="√çmpar" && esccomp=="Par") {
 				System.out.println("Computador ganhou a rodada!");
 				computador++;
 			}else {
 				System.out.println("Empate");
 			}
 		}else if(total%2==1) {
-			if(escjog=="Par" && esccomp=="Õmpar") {
+			if(escjog=="Par" && esccomp=="√çmpar") {
 				System.out.println("Computador ganhou a rodada!");
 				computador++;
-			}else if(escjog=="Õmpar" && esccomp=="Par") {
+			}else if(escjog=="√çmpar" && esccomp=="Par") {
 				System.out.println("Jogador gahou a rodada!");
 				jogador++;
 			}else {
