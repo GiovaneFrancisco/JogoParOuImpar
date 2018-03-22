@@ -3,7 +3,7 @@ package br.om.jogo;
 import java.util.Random;
 import java.util.Scanner;
 
-// AtualizaÃ§Ã£o pelo GitHub
+// Atualização pelo GitHub
 public class ParOuImparEscolha {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class ParOuImparEscolha {
 			case 2:
 				//Caso jogador escolha Impar, computador escolhe Par
 				escjog = "Impar";
-				esccomp = "Parr";
+				esccomp = "Par";
 				break;
 			default:
 				System.out.println("Opcao Invalida");
